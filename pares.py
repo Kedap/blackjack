@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from termcolor import colored
-
 TABLA = [
     [],
 ]
@@ -192,4 +190,4 @@ def pares():
     elif des == "di":
         des = "Divide tu mano"
 
-    print("Lo que tienes que hacer es:", colored(des, "red"), "\n" * 2)
+    print("Lo que tienes que hacer es:", des, "\n" * 2)

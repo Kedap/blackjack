@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from termcolor import colored
-
 TABLA = [
     [],
 ]
@@ -157,4 +155,4 @@ def suave():
     elif des == "do":
         des = "Dobla la apuesta"
 
-    print("Lo que tienes que hacer es:", colored(des, "red"), "\n" * 2)
+    print("Lo que tienes que hacer es:", des, "\n" * 2)
